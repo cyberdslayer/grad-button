@@ -1,0 +1,47 @@
+
+
+
+
+
+
+:root{
+    --test:linear-gradient(to left, red,blue);
+    --lin-grad:linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%);
+    --lin-grad-down:linear-gradient(to bottom, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    max-width: 100vw;
+    height: 100vh;
+    background-image: var(--lin-grad-down);  
+    position: relative;
+}
+
+.container{   
+    position:absolute;
+}
+ 
+
+/* ! buttons */
+
+#btn2{
+    border: 1px solid grey; 
+    border-radius: 10px;
+    padding: .5rem 1.5rem;
+    font-size: 2rem;
+    background-color: #2BC0E4;
+}
+
+#btn1{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: .5rem 1.5rem;
+    font-size: 2rem;
+}
